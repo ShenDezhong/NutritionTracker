@@ -31,6 +31,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        startandexit.getInstance().addActivity(this);
 
         email=findViewById(R.id.loginemail);
         password=findViewById(R.id.loginpassword);
@@ -50,6 +51,7 @@ public class Login extends AppCompatActivity {
                 else{
                     loginEvent();
                     //startActivity(new Intent(Login.this,Home.class));
+
                 }
 
             }
@@ -82,6 +84,7 @@ public class Login extends AppCompatActivity {
                         email.setText("");
                         password.setText("");
                         startActivity(new Intent(Login.this,Home.class));
+                        finish();
 
                     }
                 })

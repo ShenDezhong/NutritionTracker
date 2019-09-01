@@ -19,6 +19,18 @@
         <activity
             android:name=".Login"
             android:parentActivityName=".hellopage" />
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Home"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".ProductList"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Summary"
+            android:parentActivityName=".Home" />
     </application>
 
 </manifest>
