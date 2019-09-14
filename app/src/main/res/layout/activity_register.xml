@@ -63,4 +63,13 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/Regback"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Back"
+        android:textSize="10dp"/>
+
 </LinearLayout>

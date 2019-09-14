@@ -26,6 +26,7 @@ public class Login extends AppCompatActivity {
     EditText email,password;
     Button login,signup;
     FirebaseAuth mAuth =FirebaseAuth.getInstance();
+    public static String un;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -80,7 +81,7 @@ public class Login extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
-
+                        un=email.getText().toString();
                         email.setText("");
                         password.setText("");
                         startActivity(new Intent(Login.this,Home.class));

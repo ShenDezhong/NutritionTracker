@@ -16,6 +16,7 @@ public class Home extends AppCompatActivity {
     private Button list;
     private Button summary;
     private Button exit;
+    private Button profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,17 @@ public class Home extends AppCompatActivity {
                 Intent intent = new Intent(Home.this, Summary.class);
                 startActivity(intent);
 
+            }
+        });
+        /*
+         *Set the function of profile button
+         */
+        profile = findViewById(R.id.homeprofile);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Profile.class);
+                startActivity(intent);
             }
         });
         /*

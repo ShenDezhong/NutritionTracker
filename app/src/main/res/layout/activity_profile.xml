@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username/Useremail:"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/profileusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex:"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/profileusersex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday:"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/profileuserbirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country:"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/profileusercountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="50dp"
+
+        >
+
+        <Button
+            android:id="@+id/profileedit"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Edit"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/profileback"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="Back"
+            android:textColor="#000000"
+            android:textSize="10dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
